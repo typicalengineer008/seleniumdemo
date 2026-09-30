@@ -1,0 +1,16 @@
+utils\ExcelReader.class
+utils\LoggerHandler.class
+utils\ReadProperty.class
+uiStore\LoginPageLocators.class
+uiStore\CheckBoxLocator.class
+utils\ScreenShot.class
+page\LoginPage.class
+utils\EmailSend$1.class
+page\CheckBoxPage.class
+utils\Base.class
+page\DropdownPage.class
+utils\Reporter.class
+uiStore\DropdownLocators.class
+utils\EmailSend.class
+utils\WebdriverHelper.class
+runner\TestRunner.class
