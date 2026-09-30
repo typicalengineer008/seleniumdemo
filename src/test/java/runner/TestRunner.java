@@ -8,8 +8,11 @@ import org.testng.annotations.Test;
 
 import page.CheckBoxPage;
 import page.DropdownPage;
+import page.FileUploadPage;
 import page.LoginPage;
 import utils.Base;
+
+
 
 public class TestRunner {
 	Base base=new Base();
@@ -17,13 +20,15 @@ public class TestRunner {
 	CheckBoxPage checkbox=new CheckBoxPage();
 	LoginPage login=new LoginPage();
 	DropdownPage dropdown=new DropdownPage();
+	FileUploadPage fileupload;
  @BeforeMethod
  public void startBrowser() {
 	driver= base.openBrowser();
+	fileupload=new FileUploadPage(driver);
 	 
  }
  
- @Test(enabled=true)
+ @Test(enabled=false)
  public void logintc1() {
 	 base.openUrl(driver, "login");
 	 login.enterUserID(driver,"tomsmith");
@@ -32,7 +37,7 @@ public class TestRunner {
 	 login.nextPageConformation(driver);
 	 
  }
- @Test (enabled=true)
+ @Test (enabled=false)
  public void invalidlogintc2() {
 	 base.openUrl(driver, "login");
 	 login.enterUserID(driver,"tomsknmith");
@@ -41,13 +46,13 @@ public class TestRunner {
 	 login.loginError(driver);
 	 
  }
- @Test (enabled=true)
+ @Test (enabled=false)
  public void dropdowntc3(){
 	 base.openUrl(driver, "dropdown");
 	 dropdown.selectOption(driver, "2");
 	 
  }
- @Test(enabled=true)
+ @Test(enabled=false)
  public void checkboxtc4(){
 	 base.openUrl(driver, "checkbox");
 	 checkbox.isCheckedch1(driver);
@@ -55,6 +60,11 @@ public class TestRunner {
 	 checkbox.selecctCheckbox1(driver);
 	 checkbox.isCheckedch1(driver);
 	 
+ }
+ @Test(enabled=true)
+ public void fileupload5() {
+	 base.openUrl(driver, "upload");
+	 fileupload.uploadfile();
  }
  @AfterMethod
  public void browserColose() {

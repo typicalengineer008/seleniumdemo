@@ -1,8 +1,10 @@
+page\FileUploadPage.class
 utils\ExcelReader.class
 utils\LoggerHandler.class
 utils\ReadProperty.class
 uiStore\LoginPageLocators.class
 uiStore\CheckBoxLocator.class
+uiStore\FileUploadLocator.class
 utils\ScreenShot.class
 page\LoginPage.class
 utils\EmailSend$1.class
