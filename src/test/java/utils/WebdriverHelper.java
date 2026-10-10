@@ -1,5 +1,6 @@
 package utils;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -119,6 +120,14 @@ public class WebdriverHelper {
 		WebElement element = driver.findElement(locator);
 	    Select sel = new Select(element);
 	    sel.selectByValue(value);
+	}
+	public void AccceptAlert(WebDriver driver) {
+		Alert alert = driver.switchTo().alert();
+		alert.accept();
+	}
+	public void dismissAlert(WebDriver driver) {
+		Alert alert = driver.switchTo().alert();
+		alert.dismiss();;
 	}
 
 }

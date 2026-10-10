@@ -1,21 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-01T00:24:10 IST" name="Surefire suite" finished-at="2026-10-01T00:24:17 IST" duration-ms="7153">
+  <suite started-at="2026-10-10T17:41:37 IST" name="Surefire suite" finished-at="2026-10-10T17:45:43 IST" duration-ms="246314">
     <groups>
     </groups>
-    <test started-at="2026-10-01T00:24:10 IST" name="Surefire test" finished-at="2026-10-01T00:24:17 IST" duration-ms="7153">
+    <test started-at="2026-10-10T17:41:37 IST" name="Surefire test" finished-at="2026-10-10T17:45:43 IST" duration-ms="246314">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:runner.TestRunner@501edcf1]" started-at="2026-10-01T00:24:10 IST" name="startBrowser" finished-at="2026-10-01T00:24:11 IST" duration-ms="1499" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:41:37 IST" name="startBrowser" finished-at="2026-10-10T17:41:38 IST" duration-ms="1418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="fileupload5()[pri:0, instance:runner.TestRunner@501edcf1]" started-at="2026-10-01T00:24:11 IST" name="fileupload5" finished-at="2026-10-01T00:24:17 IST" duration-ms="5619" status="PASS">
+        <test-method signature="alertactiontc6()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:41:38 IST" name="alertactiontc6" finished-at="2026-10-10T17:41:42 IST" duration-ms="3638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertactiontc6 -->
+        <test-method is-config="true" signature="browserColose()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:41:42 IST" name="browserColose" finished-at="2026-10-10T17:41:42 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserColose -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:41:42 IST" name="startBrowser" finished-at="2026-10-10T17:41:43 IST" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="checkboxtc4()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:41:43 IST" name="checkboxtc4" finished-at="2026-10-10T17:41:48 IST" duration-ms="5143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxtc4 -->
+        <test-method is-config="true" signature="browserColose()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:41:48 IST" name="browserColose" finished-at="2026-10-10T17:41:48 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserColose -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:41:48 IST" name="startBrowser" finished-at="2026-10-10T17:41:49 IST" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="dropdowntc3()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:41:49 IST" name="dropdowntc3" finished-at="2026-10-10T17:42:21 IST" duration-ms="31650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdowntc3 -->
+        <test-method is-config="true" signature="browserColose()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:42:21 IST" name="browserColose" finished-at="2026-10-10T17:42:21 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserColose -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:42:21 IST" name="startBrowser" finished-at="2026-10-10T17:42:22 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="fileupload5()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:42:22 IST" name="fileupload5" finished-at="2026-10-10T17:43:26 IST" duration-ms="64141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fileupload5 -->
-        <test-method is-config="true" signature="browserColose()[pri:0, instance:runner.TestRunner@501edcf1]" started-at="2026-10-01T00:24:17 IST" name="browserColose" finished-at="2026-10-01T00:24:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="browserColose()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:43:26 IST" name="browserColose" finished-at="2026-10-10T17:43:26 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserColose -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:43:26 IST" name="startBrowser" finished-at="2026-10-10T17:43:28 IST" duration-ms="1272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="invalidlogintc2()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:43:28 IST" name="invalidlogintc2" finished-at="2026-10-10T17:44:28 IST" duration-ms="60555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogintc2 -->
+        <test-method is-config="true" signature="browserColose()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:44:28 IST" name="browserColose" finished-at="2026-10-10T17:44:28 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserColose -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:44:28 IST" name="startBrowser" finished-at="2026-10-10T17:44:30 IST" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="logintc1()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:44:30 IST" name="logintc1" finished-at="2026-10-10T17:45:43 IST" duration-ms="73341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintc1 -->
+        <test-method is-config="true" signature="browserColose()[pri:0, instance:runner.TestRunner@27c86f2d]" started-at="2026-10-10T17:45:43 IST" name="browserColose" finished-at="2026-10-10T17:45:43 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserColose -->
